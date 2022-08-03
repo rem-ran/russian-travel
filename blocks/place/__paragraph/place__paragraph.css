@@ -1,0 +1,37 @@
+.place__paragraph {
+  margin: 0;
+  margin-left: 40px;
+  max-width: 484px;
+  font: normal 400 18px/1.6 "Inter";
+  color: #ffffff;
+}
+
+.place__paragraph:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    margin-left: 32px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    margin-left: 28px;
+    max-width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin-left: 0;
+    max-width: 288px;
+  }
+
+  .place__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}

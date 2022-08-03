@@ -1,0 +1,16 @@
+.footer__link-container {
+  margin: 94px 0 24px 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link-container {
+    margin: 88px 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-container {
+    margin: auto;
+    margin-top: 64px;
+  }
+}

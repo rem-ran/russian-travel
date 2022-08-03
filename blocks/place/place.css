@@ -1,0 +1,14 @@
+.place {
+  margin: 0;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-top: 62px;
+  }
+
+  .place:not(:first-child) {
+    margin-top: 50px;
+  }
+}
