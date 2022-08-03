@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   background: center / cover no-repeat url(../../../images/cover-trains.jpg);
+  width: 100%;
   max-width: 1184px;
   min-height: 740px;
   margin: auto;
@@ -28,14 +29,12 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    min-width: 100%;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    min-width: 100%;
     min-height: 480px;
   }
 }
@@ -43,7 +42,6 @@
 @media screen and (max-width: 767px) {
   .cover__background {
     margin-top: 66px;
-    min-width: 100%;
     min-height: 200px;
   }
 }

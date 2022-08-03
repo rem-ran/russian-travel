@@ -1,7 +1,6 @@
 .header__lang-link {
   font: normal 400 24px/1.15 "Inter";
   color: #ffffff;
-  margin-top: 46px;
   margin-right: 0;
   text-decoration: none;
 }
@@ -11,8 +10,5 @@
     font-size: 18px;
     line-height: 1.11;
     color: #ffffff;
-    min-width: 22px;
-    min-height: 20px;
-    margin-top: 30px;
   }
 }
