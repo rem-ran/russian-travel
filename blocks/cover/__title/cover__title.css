@@ -2,7 +2,6 @@
   margin: 0;
   margin-top: 245px;
   max-width: 560px;
-  min-height: 152px;
   font: normal 900 72px/1.06 "Inter";
   text-align: center;
   color: #ffffff;
@@ -27,6 +26,5 @@
     font-size: 32px;
     line-height: 1.1;
     max-width: 240px;
-    min-height: 70px;
   }
 }

@@ -9,24 +9,26 @@
   <body class="page">
     <!-- начало шапки -->
     <header class="header">
-      <img
-        class="header__logo"
-        src="./images/header-logo.svg"
-        alt="Карта Россия белого цвета и справа от неё надпись Россия "
-      />
-      <ul class="header__lang-link-list">
-        <li class="header__lang-links">
-          <a
-            class="header__lang-link header__lang-link_active"
-            href="#"
-            target="_blank"
-            >Ru</a
-          >
-        </li>
-        <li class="header__lang-links">
-          <a class="header__lang-link" href="#" target="_blank">En</a>
-        </li>
-      </ul>
+      <div class="header__container">
+        <img
+          class="header__logo"
+          src="./images/header-logo.svg"
+          alt="Карта Россия белого цвета и справа от неё надпись Россия "
+        />
+        <ul class="header__lang-link-list">
+          <li class="header__lang-links">
+            <a
+              class="header__lang-link header__lang-link_active"
+              href="#"
+              target="_blank"
+              >Ru</a
+            >
+          </li>
+          <li class="header__lang-links">
+            <a class="header__lang-link" href="#" target="_blank">En</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <!-- начало блока с заголовком -->
@@ -386,52 +388,54 @@
     </main>
     <!-- начало подвала -->
     <footer class="footer">
-      <nav class="footer__link-container">
-        <ul class="footer__links">
-          <li class="footer__links-item">
-            <a
-              class="footer__link"
-              href="https://yandex.ru/maps"
-              target="_blank"
-              >Карты</a
-            >
-          </li>
-          <li class="footer__links-item">
-            <a
-              class="footer__link"
-              href="https://yandex.ru/pogoda"
-              target="_blank"
-              >Погода</a
-            >
-          </li>
-          <li class="footer__links-item">
-            <a
-              class="footer__link"
-              href="https://rasp.yandex.ru"
-              target="_blank"
-              >Расписание</a
-            >
-          </li>
-          <li class="footer__links-item">
-            <a
-              class="footer__link"
-              href="https://calendar.yandex.ru"
-              target="_blank"
-              >Календарь</a
-            >
-          </li>
-          <li class="footer__links-item">
-            <a
-              class="footer__link"
-              href="https://travel.yandex.ru"
-              target="_blank"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="footer__copyright">
-        <p class="footer__author">&copy; 2022. Руслан Тимербулатов</p>
+      <div class="footer__container">
+        <nav>
+          <ul class="footer__links">
+            <li class="footer__links-item">
+              <a
+                class="footer__link"
+                href="https://yandex.ru/maps"
+                target="_blank"
+                >Карты</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a
+                class="footer__link"
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+                >Погода</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a
+                class="footer__link"
+                href="https://rasp.yandex.ru"
+                target="_blank"
+                >Расписание</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a
+                class="footer__link"
+                href="https://calendar.yandex.ru"
+                target="_blank"
+                >Календарь</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a
+                class="footer__link"
+                href="https://travel.yandex.ru"
+                target="_blank"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__copyright">
+          <p class="footer__author">&copy; 2022. Руслан Тимербулатов</p>
+        </div>
       </div>
     </footer>
   </body>

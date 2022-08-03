@@ -4,7 +4,7 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link-list/header__lang-link-list.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -43,8 +43,7 @@
 @import url(../blocks/cover/__title-link/cover__title-link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__link-container/footer__link-container.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links-item/footer__links-item.css);
