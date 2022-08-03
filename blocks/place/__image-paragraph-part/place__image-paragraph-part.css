@@ -1,0 +1,28 @@
+.place__image-paragraph-part {
+  max-width: 984px;
+  margin: auto;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__image-paragraph-part {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image-paragraph-part {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image-paragraph-part {
+    margin-top: 32px;
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+  }
+}

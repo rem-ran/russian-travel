@@ -1,0 +1,12 @@
+.footer__author {
+  margin: 0;
+  font: normal 400 14px/1.14 "Inter";
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__author {
+    font-size: 14px;
+    line-height: 1;
+  }
+}

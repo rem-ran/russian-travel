@@ -1,0 +1,28 @@
+.place__heading-link-part {
+  max-width: 984px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__heading-link-part {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__heading-link-part {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__heading-link-part {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

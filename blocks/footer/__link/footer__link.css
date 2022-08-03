@@ -1,0 +1,13 @@
+.footer__link {
+  margin: 0;
+  font: normal 400 16px/1.12 "Inter";
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
