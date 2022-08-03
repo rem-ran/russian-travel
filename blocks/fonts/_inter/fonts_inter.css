@@ -14,7 +14,6 @@
   src: local("Inter-Bold"),
     url(../../../fonts/Inter/Inter-Bold.woff2) format("woff2"),
     url(../../../fonts/Inter/Inter-Bold.woff) format("woff");
-=======
 }
 
 @font-face {
@@ -24,5 +23,4 @@
   src: local("Inter-Regular"),
     url(../../../fonts/Inter/Inter-Regular.woff2) format("woff2"),
     url(../../../fonts/Inter/Inter-Regular.woff) format("woff");
-=======
 }
