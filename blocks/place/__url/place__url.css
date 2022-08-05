@@ -1,0 +1,11 @@
+.place__url {
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__url {
+    padding-left: 16px;
+    padding-right: 16px;
+    align-self: auto;
+  }
+}

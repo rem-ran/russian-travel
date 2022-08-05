@@ -1,6 +1,6 @@
 .intro__text {
   max-width: 690px;
-  font: normal 400 16px/1.6 "Inter";
+  font: normal 400 16px/1.6 "Inter", Arial, Helvetica, sans-serif;
   color: #ffffff;
   margin: 0;
   margin-top: 40px;

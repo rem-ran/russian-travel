@@ -1,22 +1,11 @@
-/* у заголовка задана фиксированная ширина намерено, 
-чтобы он был не уже и не шире конкретно заданой ширины */
 .place__title {
   margin: 0;
-  width: 500px;
-  font: normal 900 72px/1.06 "Inter";
+  font: normal 900 72px/1.06 "Inter", Arial, Helvetica, sans-serif;
   color: #ffffff;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__title {
-    width: 472px;
-  }
 }
 
 @media screen and (max-width: 1023px) {
   .place__title {
-    max-width: 340px;
-    margin-right: 28px;
     font-size: 42px;
     line-height: 1.1;
   }
@@ -24,9 +13,9 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    margin: 0;
-    width: 288px;
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 1.09;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

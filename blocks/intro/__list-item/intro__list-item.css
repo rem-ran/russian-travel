@@ -1,5 +1,5 @@
 .intro__list-item {
-  font: normal 700 12px/1.5 "Inter";
+  font: normal 700 12px/1.5 "Inter", Arial, Helvetica, sans-serif;
   color: #ffffff;
   margin: 0;
 }

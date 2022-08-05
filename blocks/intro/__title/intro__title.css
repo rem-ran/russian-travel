@@ -1,7 +1,7 @@
 .intro__title {
   margin: 0;
   max-width: 690px;
-  font: normal 900 54px/1.07 "Inter";
+  font: normal 900 54px/1.07 "Inter", Arial, Helvetica, sans-serif;
   color: #ffffff;
 }
 
