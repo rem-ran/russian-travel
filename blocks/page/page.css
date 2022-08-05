@@ -6,7 +6,3 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
-
-.line {
-  outline: solid 2px red;
-}
