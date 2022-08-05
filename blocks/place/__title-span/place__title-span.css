@@ -1,9 +1,0 @@
-.place__title-span {
-  display: block;
-}
-
-@media screen and (max-width: 767px) {
-  .place__title-span {
-    display: inline-block;
-  }
-}

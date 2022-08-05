@@ -1,5 +1,5 @@
 .lead__title {
-  font: normal 900 96px/1.05 "Inter";
+  font: normal 900 96px/1.05 "Inter", Arial, Helvetica, sans-serif;
   max-width: 720px;
   text-align: center;
   color: #ffffff;
