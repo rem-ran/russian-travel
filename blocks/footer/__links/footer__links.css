@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.line {
+  outline: solid 2px red;
+}
+
 @media screen and (max-width: 767px) {
   .footer__links {
     min-width: 288px;
